@@ -5,6 +5,7 @@ const Navbar = () => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/todoapp">To-Do-App</Link></li>
+        <li><Link to="/login">Login</Link></li>
     </>
     return (
         <div class="navbar bg-base-100">

@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import ToDoApp from './Pages/ToDoApp/ToDoApp';
 import AddTask from './Pages/AddTask';
+import Login from './Pages/Login/Login';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/todoapp" element={<ToDoApp></ToDoApp>}></Route>
         <Route path="/addtask" element={<AddTask></AddTask>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
 
     </div>

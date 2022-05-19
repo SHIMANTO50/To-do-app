@@ -12,7 +12,7 @@ const ToDoApp = () => {
         const proceed = window.confirm('Do you want to Delete?');
         if (proceed) {
             console.log('Deleting User id', id);
-            const url = `http://localhost:5000/task/${id}`
+            const url = `https://safe-depths-86276.herokuapp.com/task/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
@@ -25,7 +25,7 @@ const ToDoApp = () => {
         }
     }
     useEffect(() => {
-        fetch('http://localhost:5000/task')
+        fetch('https://safe-depths-86276.herokuapp.com/task')
             .then(res => res.json())
             .then(data => setTasks(data))
     }, [])
