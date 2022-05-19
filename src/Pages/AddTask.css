@@ -1,0 +1,12 @@
+.task-form{
+    margin: 0 auto;
+    width: 20%;
+    min-height: 100vh;
+}
+.task-form input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size:18px;
+    margin-bottom: 15px;
+}

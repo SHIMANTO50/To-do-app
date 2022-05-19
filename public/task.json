@@ -1,0 +1,12 @@
+[
+    {
+        "_id": 1,
+        "name": "algorithm",
+        "description": "Complete dijkstra algorithm"
+    },
+    {
+        "_id": 2,
+        "name": "data-structure",
+        "description": "Complete BFS and DFS"
+    }
+]
